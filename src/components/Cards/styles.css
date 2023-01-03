@@ -1,0 +1,23 @@
+.container-ppal{
+    background-color: #000;
+}
+
+.container-character{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 20px;
+    justify-items: center;
+}
+
+@media screen and (max-width:1300px) {
+    .container-character{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width:860px) {
+    .container-character{
+        grid-template-columns: 1fr;
+    }
+}

@@ -1,0 +1,61 @@
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 8px;
+  padding-left: 12px;
+  padding-right: 12px;
+  margin-bottom: 20px;
+  background-color: #000;
+}
+
+.button-container{
+    display: inline-block;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.button-nav{
+    width: 120px;
+    height: 40px;
+    background-color: #113408;
+    color: #5fe03f;
+    font-family: 'Sono', sans-serif;
+    font-size: 14px;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.icon-favorites{
+    display: inline-block;
+}
+
+
+
+.icon-favorites {
+  width: 20px;
+  height: 20px;
+  margin-left: 12px;
+  background-image: url("../../../public/img/amor-verde.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+.icon-favorites p{
+    margin:0;
+    padding: 2px;
+    font-weight: bold;
+    font-size: 12px;
+    font-family: 'Sono', sans-serif;
+    color: #113408;
+}
+
+
+.button-container:hover{
+    transform: scale(1.1, 1.1);
+    transition-duration: .2s;
+    animation-timing-function: ease;
+}
+
+

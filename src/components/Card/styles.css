@@ -1,0 +1,87 @@
+.card-container{
+    margin-bottom: 48px;
+    background-color: #091a04;
+    width: 400px;
+    border: 1px solid #5fe03f;
+    border-radius: 8px;
+}
+
+
+.name-character{
+    width: 60%;
+    height: 28px;
+    position: relative;
+    bottom: 42px;
+    background-color: #5fe03f;
+    color: #091a04;
+    font-family: 'Sono', sans-serif;
+    font-size: 22px;
+    border-radius: 6px 0px 12px 0px;
+}
+
+.buttonFav{
+    height: 22px;
+    position: relative;
+    bottom: 24px;
+    right: 120px;
+    border: 1px solid #091a04;
+    border-radius: 10px 10px 0px 0px;
+    background-color: #091a04;
+    cursor: pointer;
+}
+
+.buttonClose{
+    width: 120px;
+    height: 22px;
+    position: relative;
+    left: 124px;
+    bottom: 2px;
+    border: 1px solid #520b0b;
+    border-radius: 0px 8px 0px 12px;;
+    background-color: #520b0b;
+    font-family: 'Sono', sans-serif;
+    font-size: 12px;
+    color:#d2fac8 ;
+    cursor: pointer;
+}
+.buttonClose:hover{
+    background-color:#9e0a0a ;
+}
+
+.container-img {
+    height: 60%;
+    padding: 0;
+}
+.container-img img{
+    height: 100%;
+    border-radius: 10px;
+}
+
+.link-detail{
+    text-decoration: none;
+    position: relative;
+    top: 24px;
+}
+
+.contain-text{
+    width: 96%;
+    margin: 0 auto;
+    height: 40px;
+    background-color: #113408;
+    border-radius: 4px;
+    border: 1px solid #5fe03f;
+}
+
+.text-detail{
+    height: 86%;
+    width: 100%;
+    font-family: 'Sono', sans-serif;
+    color: #5fe03f;
+    margin:0;
+    padding-top: 6px;
+}
+
+.text-detail:hover{
+    color: #091a04;
+    background-color: #5fe03f;
+}

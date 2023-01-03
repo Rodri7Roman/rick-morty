@@ -1,0 +1,78 @@
+.container-bienv{
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    background: linear-gradient(#000000, #36750c71)
+}
+
+
+.logo-span{
+    background-image: url("../../../public/img/logo.png");
+    width: 500px;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto 0;
+}
+
+
+.container-form{
+    margin: auto 0;
+}
+
+.container-form h1{
+    color: #017001;
+    font-family: 'Sono', sans-serif;
+    font-size: 64px;
+}
+
+.input-container{
+    color: #017001;
+    padding-bottom: 20px;
+    font-family: 'Sono', sans-serif;
+    font-weight: lighter;
+    font-size: 24px;
+}
+
+.input{
+    width: 260px;
+    height: 40px;
+    border-radius: 4px;
+    border: 1px solid #017001;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.password{
+    font-size: 22px;
+}
+
+.text-error{
+    margin-top: 0;
+    color: #ffffff;
+    font-family: 'Sono', sans-serif;
+}
+
+.button-container{
+    padding-top: 12px;
+}
+
+.button-ingresar{
+    width: 120px;
+    height: 50px;
+    background-color: #043804;
+    font-family: 'Sono', sans-serif;
+    font-size: 20px;
+    color: #ffffff;
+    border-radius: 6px;
+    border: 1px solid #063506;
+    cursor: pointer;
+}
+
+.button-ingresar:hover{
+    transform: scale(1.1, 1.1);
+    transition-duration: .2s;
+    animation-timing-function: ease;
+}

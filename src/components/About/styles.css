@@ -1,0 +1,41 @@
+.container-red{
+    display: flex;
+    justify-content: center;
+}
+
+
+.container-text-about{
+    background-color: #113408;
+    border-radius: 12px;
+    font-family: 'Sono', sans-serif;
+    font-size: 12px;
+    color: #d2fac8;
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 48px;
+}
+
+.link{
+    padding-top: 8px;
+    padding-bottom: 14px;
+    padding-right: 12px;
+    
+}
+
+
+
+.link a{
+    text-decoration: none;
+    color: #5fe03f;
+}
+
+.red{
+    width: 20px;
+    padding-right: 6px;
+}
+
+
+
+.autor{
+    font-weight: lighter;
+}

@@ -1,0 +1,26 @@
+.container-home{
+    margin: 0;
+}
+
+.container-text{
+    background-color: #113408;
+    border-radius: 12px;
+    font-family: 'Sono', sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    color: #d2fac8;
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 48px;
+}
+
+.container-img{
+    padding-top: 24px;
+}
+
+.container-text h1{
+    font-weight: lighter;
+    margin: 0;
+    margin-top: 10px;
+    padding: 4px;
+}

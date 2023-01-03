@@ -1,0 +1,33 @@
+.div-container {
+  margin: auto 0;
+  padding-top: 16px;
+}
+
+.input-agregar {
+  width: 240px;
+  height: 34px;
+  border-radius: 20px;
+  padding-left: 10px;
+  border: 1px solid #0a3624;
+  color: #0a3624;
+  margin-right: 8px;
+}
+
+.button-agregar {
+    margin-left: 12px;
+    width: 120px;
+    height: 40px;
+    background-color: #113408;
+    color: #5fe03f;
+    font-family: 'Sono', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.button-agregar:hover{
+    background-color: #5fe03f;
+    color: #113408;
+}
+
