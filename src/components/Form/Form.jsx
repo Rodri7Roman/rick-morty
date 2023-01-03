@@ -33,7 +33,12 @@ const Form = (props) => {
       <span className="logo-span animate__animated animate__zoomIn"></span>
 
       <div className="container-form animate__animated animate__zoomInLeft">
-        <h1>Bienvenido! </h1>
+        <h1>Bienvenido!</h1>
+        <p>
+          Introduce email: romanrodri03@gmail.com{" "}
+        </p>
+        <p>contraseña: rodri123</p>
+
         <form onSubmit={handleSumbit}>
           <div className="input-container">
             <label>Username: </label>
@@ -44,11 +49,10 @@ const Form = (props) => {
               onChange={handleInputChange}
               className="input"
             />
-
           </div>
           {errors.username && (
-              <p className="text-error">💀 {errors.username}</p>
-            )}
+            <p className="text-error">💀 {errors.username}</p>
+          )}
 
           <div className="input-container">
             <label>Password: </label>
@@ -59,11 +63,10 @@ const Form = (props) => {
               onChange={handleInputChange}
               className="input password"
             />
-
           </div>
           {errors.password && (
-              <p className="text-error">💀 {errors.password}</p>
-            )}
+            <p className="text-error">💀 {errors.password}</p>
+          )}
           <div className="button-container">
             <button className="button-ingresar">Ingresar</button>
           </div>
